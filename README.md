@@ -18,14 +18,13 @@ The project is structured as follows:
 ## How to run
 - Clone the repository
 - Navigate to the project directory
-- Run the following command in the repo directory: `/mvnw clean install`
 - Then you can run any java file as TestNG.
 
 ## Report
 TestNG will generate a report in test-output folder after test execution. The report will give a detailed summary of the test results including passed, failed, and skipped tests.
 
 ## Note
-The react front-end application under test is expected to be up and running on the URL specified in the Constants.java file before running the tests.
+The react front-end application under test is expected to be up and running on the URL specified in the constant url on top of each test file before running the tests.
 The tests assume a certain state of the react front-end application and may fail if the state is different.
 
 ## Contributions
